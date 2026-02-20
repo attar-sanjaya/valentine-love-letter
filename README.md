@@ -1,73 +1,62 @@
-# Welcome to your Lovable project
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Tarik-Y/Tarik-Y/main/assets/sparkles.gif" width="50px">
+</p>
 
-## Project info
+<h1 align="center">💌 Pixel Love Letter: ilysm-rania</h1>
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+<p align="center">
+  <strong>Sebuah persembahan digital nostalgik dalam balutan estetika 8-bit dan melodi yang menyentuh hati.</strong>
+</p>
 
-## How can I edit this code?
+<p align="center">
+  <img src="https://img.shields.io/badge/Gaya-Retro_Pixel-ff69b4?style=for-the-badge" alt="Gaya">
+  <img src="https://img.shields.io/badge/Status-Proyek_Pribadi-blueviolet?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/Vibe-Romantis-red?style=for-the-badge" alt="Vibe">
+</p>
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## ✨ Ikhtisar
+Proyek ini adalah surat cinta digital interaktif yang dirancang khusus dengan gaya visual **Retro Pixel Art**. Dibuat untuk memberikan pengalaman yang personal dan nostalgik, proyek ini menggabungkan pesan teks dengan *background music* (BGM) untuk menciptakan suasana yang mendalam.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+> *"Kadang kala, perasaan yang paling dalam paling indah disampaikan melalui piksel dan nada."*
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🎨 Fitur Utama
+- **Visual Retro:** Antarmuka bergaya klasik 8-bit yang estetik dan bersih.
+- **Musik Latar (BGM):** Audio terintegrasi untuk membangun suasana saat membaca pesan.
+- **Interaksi Pengguna:** Pengalaman membaca surat yang tidak statis dan menarik secara visual.
+- **Desain Responsif:** Dapat diakses dengan baik melalui perangkat seluler maupun komputer.
 
-**Use your preferred IDE**
+## 🛠️ Teknologi yang Digunakan
+- **HTML5 & CSS3** (Penataan gaya pixel-art khusus)
+- **JavaScript** (Logika interaksi dan pemutaran audio)
+- **Netlify** (Platform deployment)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📜 Ketentuan Penggunaan & Lisensi
+Proyek ini bersifat terbuka untuk dipelajari, namun dengan syarat dan ketentuan berikut:
 
-Follow these steps:
+1. **Penggunaan Non-Profit / Pribadi:** Silakan gunakan, modifikasi, dan bagikan secara bebas untuk keperluan pribadi atau kegiatan non-komersial tanpa batasan.
+2. **Kreator Konten:** Jika kamu menampilkan proyek ini dalam konten media sosial (YouTube, TikTok, Instagram, dll), kamu **wajib mencantumkan kredit/mention** kepada saya sebagai pembuat asli.
+3. **Produk Berbayar / Komersial:** Jika kode sumber ini digunakan dalam produk berbayar atau proyek komersial, kamu **wajib mencantumkan atribusi sumber kode** secara eksplisit di bagian informasi produk.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🚀 Cara Menjalankan
+1. Clone repositori ini ke perangkatmu.
+2. Buka file `index.html` di peramban (browser) pilihanmu.
+3. Pastikan audio menyala untuk pengalaman maksimal.
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+<p align="center">
+  Dibuat dengan ❤️ oleh <strong>Khalief Attar Sanjaya</strong><br>
+  <i>"Menyusun kode, merajut cerita."</i>
+</p>
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+<p align="center">
+  <a href="https://ilysm-rania.netlify.app/">
+    <img src="https://img.shields.io/badge/Demo_Langsung-Kunjungi_Situs-heart?style=flat-square&logo=netlify&logoColor=white&color=ff69b4" alt="Live Demo">
+  </a>
+</p>
