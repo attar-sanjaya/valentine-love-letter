@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&family=Press+Start+2P&family=Quicksand:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 60% 97%;
+    --foreground: 25 30% 15%;
+
+    --card: 28 80% 96%;
+    --card-foreground: 25 30% 22%;
+
+    --popover: 28 80% 96%;
+    --popover-foreground: 25 30% 22%;
+
+    --primary: 5 40% 58%;
+    --primary-foreground: 30 60% 97%;
+
+    --secondary: 32 40% 82%;
+    --secondary-foreground: 25 30% 22%;
+
+    --muted: 30 35% 90%;
+    --muted-foreground: 25 20% 35%;
+
+    --accent: 100 14% 55%;
+    --accent-foreground: 30 60% 97%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 30 30% 85%;
+    --input: 30 30% 85%;
+    --ring: 5 40% 58%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Custom tokens */
+    --love-pink: 0 85% 95%;
+    --love-rose: 5 35% 60%;
+    --love-cocoa: 25 30% 30%;
+    --love-sage: 100 14% 55%;
+    --love-beige: 32 50% 88%;
+    --love-cream: 30 60% 97%;
+    --love-warm: 15 45% 70%;
+
+    --font-pixel: 'Press Start 2P', cursive;
+    --font-body: 'Quicksand', sans-serif;
+    --font-serif: 'Playfair Display', serif;
+  }
+
+  .dark {
+    --background: 25 30% 8%;
+    --foreground: 30 60% 97%;
+    --card: 25 30% 10%;
+    --card-foreground: 30 60% 97%;
+    --popover: 25 30% 10%;
+    --popover-foreground: 30 60% 97%;
+    --primary: 5 40% 58%;
+    --primary-foreground: 30 60% 97%;
+    --secondary: 32 20% 20%;
+    --secondary-foreground: 30 60% 97%;
+    --muted: 25 20% 15%;
+    --muted-foreground: 30 20% 65%;
+    --accent: 100 14% 35%;
+    --accent-foreground: 30 60% 97%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 25 20% 18%;
+    --input: 25 20% 18%;
+    --ring: 5 40% 58%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+    image-rendering: auto;
+  }
+}
+
+@layer components {
+  .font-pixel {
+    font-family: var(--font-pixel);
+  }
+
+  .font-body {
+    font-family: var(--font-body);
+  }
+
+  .font-serif {
+    font-family: var(--font-serif);
+    font-style: italic;
+  }
+
+  /* Pixel cursor */
+  .cursor-pixel-heart {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Crect x='4' y='2' width='4' height='4' fill='%23C4756E'/%3E%3Crect x='12' y='2' width='4' height='4' fill='%23C4756E'/%3E%3Crect x='2' y='4' width='4' height='4' fill='%23C4756E'/%3E%3Crect x='6' y='4' width='4' height='4' fill='%23e8a0a0'/%3E%3Crect x='10' y='4' width='4' height='4' fill='%23C4756E'/%3E%3Crect x='14' y='4' width='4' height='4' fill='%23e8a0a0'/%3E%3Crect x='18' y='4' width='4' height='4' fill='%23C4756E'/%3E%3Crect x='2' y='8' width='4' height='4' fill='%23C4756E'/%3E%3Crect x='6' y='8' width='4' height='4' fill='%23C4756E'/%3E%3Crect x='10' y='8' width='4' height='4' fill='%23C4756E'/%3E%3Crect x='14' y='8' width='4' height='4' fill='%23C4756E'/%3E%3Crect x='18' y='8' width='4' height='4' fill='%23C4756E'/%3E%3Crect x='4' y='12' width='4' height='4' fill='%23C4756E'/%3E%3Crect x='8' y='12' width='4' height='4' fill='%23C4756E'/%3E%3Crect x='12' y='12' width='4' height='4' fill='%23C4756E'/%3E%3Crect x='16' y='12' width='4' height='4' fill='%23C4756E'/%3E%3Crect x='6' y='16' width='4' height='4' fill='%23C4756E'/%3E%3Crect x='10' y='16' width='4' height='4' fill='%23C4756E'/%3E%3Crect x='14' y='16' width='4' height='4' fill='%23C4756E'/%3E%3Crect x='8' y='20' width='4' height='4' fill='%23C4756E'/%3E%3Crect x='12' y='20' width='4' height='4' fill='%23C4756E'/%3E%3C/svg%3E") 12 12, pointer;
+  }
+
+  /* Typewriter animation */
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: hsl(var(--love-cocoa)); }
+  }
+
+  /* Breathing/hovering animation */
+  @keyframes breathe {
+    0%, 100% { transform: translateY(0px) scale(1); }
+    50% { transform: translateY(-8px) scale(1.02); }
+  }
+
+  .animate-breathe {
+    animation: breathe 3s ease-in-out infinite;
+  }
+
+  /* Pixel bokeh */
+  @keyframes float-particle {
+    0% { transform: translateY(100vh) translateX(0) rotate(0deg); opacity: 0; }
+    10% { opacity: 0.6; }
+    90% { opacity: 0.6; }
+    100% { transform: translateY(-10vh) translateX(30px) rotate(360deg); opacity: 0; }
+  }
+
+  /* Gentle pulse for text */
+  @keyframes gentle-pulse {
+    0%, 100% { opacity: 0.6; }
+    50% { opacity: 1; }
+  }
+
+  .animate-gentle-pulse {
+    animation: gentle-pulse 2s ease-in-out infinite;
+  }
+
+  /* Polaroid tilt */
+  .polaroid-frame {
+    @apply bg-card rounded-sm shadow-lg transition-all duration-300;
+    padding: 8px 8px 28px 8px;
+  }
+
+  .polaroid-frame:hover {
+    transform: rotate(-2deg) scale(1.03);
+    box-shadow: 0 12px 28px -8px hsl(var(--love-rose) / 0.25);
+  }
+
+  /* Pixel paper texture */
+  .pixel-paper {
+    background-color: hsl(var(--love-cream));
+    background-image: 
+      linear-gradient(hsl(var(--love-beige) / 0.3) 1px, transparent 1px);
+    background-size: 100% 32px;
+  }
+
+  /* Pixel border */
+  .pixel-border {
+    box-shadow: 
+      4px 0 0 0 hsl(var(--love-rose)),
+      -4px 0 0 0 hsl(var(--love-rose)),
+      0 4px 0 0 hsl(var(--love-rose)),
+      0 -4px 0 0 hsl(var(--love-rose)),
+      4px 4px 0 0 hsl(var(--love-cocoa)),
+      -4px -4px 0 0 hsl(var(--love-cocoa)),
+      4px -4px 0 0 hsl(var(--love-cocoa)),
+      -4px 4px 0 0 hsl(var(--love-cocoa));
+  }
+
+  /* Scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--muted));
+  }
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--love-rose) / 0.4);
+    border-radius: 4px;
+  }
+}
